@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_recipe_margin"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="@dimen/card_recipe_margin"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/photo_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_recipe_height"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+                    android:id="@+id/recipe_image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/image_recipe_height"
+                    android:alpha="0.8"
+                    android:contentDescription="@string/image_view_description"
+                    android:scaleType="centerCrop" />
+
+                <ProgressBar
+                    android:id="@+id/pb_loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:progressDrawable="@color/black_effective"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="@dimen/marley_spoon_text_logo_size"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/marley_spoon_text_logo_margin"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/text_logo_marley_spoon" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/name_text_view"
+                style="@style/TextStyle.Heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:textColor="@color/white"
+                tools:text="Name" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

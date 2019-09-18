@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_recipe_margin"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/card_recipe_margin">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/card_recipe_margin"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/photo_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_recipe_height">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/image_recipe_height"
+                    android:background="@color/shimmer_background" />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="@dimen/shimmer_text_width"
+                android:layout_height="@dimen/shimmer_text_height"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@color/shimmer_background" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

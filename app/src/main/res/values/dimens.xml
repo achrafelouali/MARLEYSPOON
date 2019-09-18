@@ -1,0 +1,28 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+    <dimen name="app_bar_height">0sp</dimen>
+    <dimen name="card_elevation">22sp</dimen>
+    <dimen name="card_bottom_margin">70sp</dimen>
+    <dimen name="card_top_margin">70sp</dimen>
+    <dimen name="card_corner_radius">0sp</dimen>
+    <dimen name="card_corner_radius_chef">10sp</dimen>
+    <dimen name="image_logo_splash_size">70sp</dimen>
+    <dimen name="image_empty_list_size">80sp</dimen>
+    <dimen name="image_recipe_height">200sp</dimen>
+    <dimen name="image_recipe_details_height">350sp</dimen>
+    <dimen name="card_recipe_margin">8sp</dimen>
+    <dimen name="toolbar_elevation">4sp</dimen>
+    <dimen name="tag_elevation">3sp</dimen>
+    <dimen name="chef_logo_size">20sp</dimen>
+    <dimen name="tag_icon_size">16sp</dimen>
+    <dimen name="shimmer_text_width">100sp</dimen>
+    <dimen name="shimmer_text_height">30sp</dimen>
+    <dimen name="collapsing_iv_height">100sp</dimen>
+    <dimen name="not_found_iv_size">40sp</dimen>
+
+    <dimen name="marley_spoon_text_logo_size">70sp</dimen>
+    <dimen name="marley_spoon_text_logo_margin">8sp</dimen>
+
+
+</resources>
