@@ -9,9 +9,9 @@ This repository contains an ANDROID app that is the subject of a Take home test 
 
 <p align="center">
 
-  <img src="http://achraf.fps-platform.com/marleyspoon/screen1.gif" width="300">
-  <img src="http://achraf.fps-platform.com/marleyspoon/screen3.png" width="300">
-  <img src="http://achraf.fps-platform.com/marleyspoon/screen2.png" width="300">
+  <img src="http://achraf.fps-platform.com/marleyspoon/screen1.gif" width="250">
+  <img src="http://achraf.fps-platform.com/marleyspoon/screen3.png" width="250">
+  <img src="http://achraf.fps-platform.com/marleyspoon/screen2.png" width="250">
 </p>
 <br>
 <br>
