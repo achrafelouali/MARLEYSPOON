@@ -32,7 +32,7 @@ This repository contains an ANDROID app that is the subject of a Take home test 
 
 ### Library reference resources:
 1. Dagger2: [https://github.com/google/dagger](https://github.com/google/dagger)
-2. Contentful: [https://github.com/contentful/contentful.java](https://github.com/amitshekhariitbhu/Fast-Android-Networking)
+2. Contentful: [https://github.com/contentful/contentful.java](https://github.com/contentful/contentful.java)
 3. Gson : [https://github.com/google/gson](https://github.com/google/gson)
 4. Glide : [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
 5. PlaceHolderView: https://github.com/janishar/PlaceHolderView
